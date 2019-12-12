@@ -1,6 +1,6 @@
 # Acrobat & the PDF Format
 
-The rational and outline of the original PDF project are described by John Warnock in _The Camelot Paper_.[^1] The ubiquity of PDFs today makes it interesting to consider some of the problem statement from that paper:
+The rational and outline of the original PDF project are described by John Warnock in _The Camelot Paper_[^1]. The ubiquity of PDFs today makes it interesting to consider some of the problem statement from that paper:
 
 > What industries badly need is a universal way to communicate documents across a wide variety of machine configurations, operating systems and communication networks. These documents should be viewable on any display and should be printable on any modern printers. If this problem can be solved, then the fundamental way people work will change (pp. 1).
 
@@ -8,7 +8,7 @@ The rational and outline of the original PDF project are described by John Warno
 
 To be platform independent and protable, PDFs have always had to be self-contained. That is, a PDF file includes its own fonts and other dependencies necessary to view or print it. Since 2008, the PDF has been an open ISO standard, and Adobe has granted royalty-free rights to related technologies necessary to develop or market standard-compliant applications[^2]. Consider this in comparison with the MPEG _MPEG-1_ and _MPEG-2_ standards...
 
-## Exploring the PDF Format
+### Exploring the PDF Format
 
 1. Go to the Hathi Trust Digital Library at <https://www.hathitrust.org/>. Do a search for a topic or title of interest. In this example, we searched for _Alice in Wonderland_[^3].
 2. Select an item from the result list and click on its _Full View_ link:
@@ -23,6 +23,24 @@ To be platform independent and protable, PDFs have always had to be self-contain
 5. From the _File-> Export To_ menu, select a text format (MS Word, Text or Rich Text Format) and export the page in that format. Open the exported file and compare with the PDF original. What's different? Note things like file size, layout and font(s) of text, presence or absence of text and/or images, etc. Note that exporting to plain text is essentially the same as exporting the OCR layer.
 6. Repeat the export process to HTML format.
 7. Repeat the export process to PostScript or Encapsulated PostScript format. Use a text editor to open this file and compare with the PDF. Note especially the filesize difference between the PDF and PS/EPS files. In the case of _Alice_, one page is over 11MB in PS/EPS format. The PDF image of the same page is around 220-225KB.
+
+## Acrobat & the Creative Cloud IDE
+
+Within the Creative Cloud launcher, Acrobat is included in two categories: _Design & Layout_, and _Acrobat & PDF_. It is possible to create a blank PDF and edit it to create forms and other types of documents, but typically PDFs are converted from scanned images or other files. Also, PDFs are often the final product of design or desktop publishing workflows in which content is created using other applications such as Illustrator. This makes PDFs useful for processes including:
+
+* Gathering feedback and signatures
+* Document processing (redactions, OCR, optimization and compression, etc.)
+
+### Collaborative PDF Editing
+
+1. Use Acrobat DC to open the file _menu.pdf_, included in the GitHub repository for this workshop.
+2. In the _Tools_ menu, select "Comment." This will open a markup toolbar.
+3. Take a few minutes to comment on and mark up the document.
+4. Use the _Edit PDF_ toolbar to make other changes to the document - add background color, add text or images, etc.
+5. Once you have made some edits and comments, click on the _Send for Review_ tool. Pick a collaborator to review the file and share it with them.
+
+
+
 
 [^1]: Warnock, John (1991). "The Camelot Project." Accessed 2019-12-12 from <https://planetpdf.com/planetpdf/pdfs/warnock_camelot.pdf>.
 
