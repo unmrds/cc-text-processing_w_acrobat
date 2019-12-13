@@ -44,6 +44,9 @@ Note that the Acrobat GUI tracks comments and edits. To finish the review proces
 
 Other useful features include _Redact_, _Protect_, and _Optimize_.
 
+### Using the Adobe Scan App
+
+Install the Adobe Scan app to your mobile phone. It should be available from the app store for your platform, or alternatively from the Adobe Creative Cloud launcher. The app can be used to create fillable forms from scanned paper copies, add contact info from a business card straight to your "Contacts." 
 
 
 [^1]: Warnock, John (1991). "The Camelot Project." Accessed 2019-12-12 from <https://planetpdf.com/planetpdf/pdfs/warnock_camelot.pdf>.
